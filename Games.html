@@ -1,5 +1,32 @@
 <html>
 <head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
@@ -14,43 +41,67 @@ $(document).ready(function () {
 		});
     </script>
 </head>
-<body class="background-game">
+<body>
 
-<nav class="navbar navbar-inverse navbar-static-top custom-navbar" role="navigation">
-  <div class="container">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <div class="navbar-header">
-      <a class="navbar-brand" rel="home" href="index.html" title="Help">
+	 <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Name of Game</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Games.html">Game</a>
+                    </li>
+                    <li>
+                        <a href="forum.html">Chat</a>
+                    </li>
+                    <li>
+                        <a href="Lore.html">Lore</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse 
+			  <a class="navbar-brand" rel="home" href="index.html" title="Help">
        <img src="http://i59.tinypic.com/5cc18k.jpg" width="25">
-      </a>
-    </div>
-    <!-- Non-collapsing right-side icons -->
-    <ul class="nav navbar-nav navbar-right">
-      <li>
-        <a href="#" class="fa fa-cog"></a>
-      </li>
-      <li>
-        <a href="#" class="fa fa-home"></a>
-      </li>
-    </ul>
-    <!-- the collapsing menu -->
-    <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="Games.html">Games</a></li>
-        <li><a href="Chat.html">Chat</a></li>
-        <li><a href="lore.html">Lore</a></li>
-      </ul>
-    </div>
-    <!--/.nav-collapse -->
-  </div>
-  <!--/.container -->
-</nav>
-<div align="center">
+      </a>-->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+	 <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+	<!--INSERT PHOTO-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Name of Game</h1>
+                        <hr class="small">
+                        <span class="subheading">1v1 RPG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container" align="center">
+
       <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/84669050/?autostart=false" frameborder="0" allowfullscreen></iframe>
    </div>
 </body>
